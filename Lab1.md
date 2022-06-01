@@ -90,8 +90,7 @@ matrix3
 ```R
 > x<- list('ab',10,123L,TRUE,2+2i)
 > print(x)
-```
-```R
+
 [[1]]
 [1] "ab"
 
