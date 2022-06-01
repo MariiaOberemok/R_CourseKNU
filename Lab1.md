@@ -114,8 +114,6 @@ matrix3
 x<-factor(c("baby",'child','baby','baby', 'adult', 'child','child', 'adult','baby','adult'))
 print(x)
 table(x)
-```
-```R
  [1] baby  child baby  baby  adult child child adult baby  adult
 Levels: adult baby child
 x
@@ -128,14 +126,9 @@ adult  baby child
 ```R
 x<-c(1,2,3,4,NA,6,7,NA,9,NA,11)
 match(NA, x)
-```
-```R
 [1] 5
-```
-```R
+
 length(which(is.na(x)))
-```
-```R
 [1] 3
 ```
 
