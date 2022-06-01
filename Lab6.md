@@ -72,7 +72,6 @@
 + }
 > apply(mat,2,count_2)
 [1] FALSE FALSE FALSE FALSE FALSE
-
 ```
 
 8. Створить список list1 <- list(observationA = c(1:5, 7:3), observationB =matrix(1:6, nrow=2)). Для цього списку знайдіть sum за допомогою lapply.
@@ -106,7 +105,6 @@ $observationA
 
 $observationB
 [1] 1 6
-
 ```
 
 10.Для вбудованого набору даних InsectSprays знайти середнє count для кожного spray.
@@ -115,5 +113,4 @@ $observationB
 > sapply(mean, function(k) mean(k$count, na.rm=TRUE))
         A         B         C         D         E         F 
 14.500000 15.333333  2.083333  4.916667  3.500000 16.666667 
-
 ```
