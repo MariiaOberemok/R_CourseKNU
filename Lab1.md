@@ -154,7 +154,7 @@ data_frame
 
 
 8. Змінити імена стовпців цього data frame.
-```{R}
+```R
 colnames(data_frame) <- c("number", "amount", "executive")
 
 data_frame
