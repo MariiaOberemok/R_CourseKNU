@@ -8,8 +8,8 @@
 +     }
 +     mean(x, na.rm=TRUE)
 + }
-
-
+>
+>
 > complete <- function(directory, id=1:length(file_list)){
 +     file_list <- dir(path=directory, pattern =".csv", full.names=TRUE)
 +     nobs <- numeric()
@@ -19,8 +19,8 @@
 +         }
 + data.frame(id, nobs)
 + }
-
-
+>
+>
 > corr <- function(directory, threshold = 0){ 
 +     file_list <- dir(path=directory, pattern =".csv", full.names=TRUE) 
 +     corr_v <- NULL 
